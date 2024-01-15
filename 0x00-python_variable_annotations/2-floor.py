@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-
+import math
 """
 This module just defines a function
-that joins two strings together
+that takes a float and returns the
+floor of that float
 and this function has annotations
 """
 
 
-def concat(str1: str, str2: str) -> str:
+def floor(n: float) -> float:
     """ This function adds a and b and returns a float"""
-    return (str1+str2)
+    return (math.floor(n))
