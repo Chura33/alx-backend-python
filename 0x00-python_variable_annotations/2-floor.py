@@ -8,6 +8,6 @@ and this function has annotations
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """ This function adds a and b and returns a float"""
     return (math.floor(n))
