@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-import math
+
 """
 This module just defines a function
 that takes a float and returns the
 floor of that float
 and this function has annotations
 """
+
+import math
 
 
 def floor(n: float) -> int:
