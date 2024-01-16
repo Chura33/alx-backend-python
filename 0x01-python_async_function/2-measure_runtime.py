@@ -5,7 +5,7 @@
 This module imports the wait_n coroutine and defines a measure_time function
 to measure the total execution time for wait_n(n, max delay.
 """
-
+import asyncio
 import time
 wait_n = __import__('1-concurrent_coroutines').wait_n
 
@@ -29,7 +29,6 @@ def measure_time(n: int, max_delay: int = 10) -> float:
     """
     start_time = time.time()
 
-    # Asynchronously run wait_n
     asyncio.run(wait_n(n, max_delay))
 
     end_time = time.time()
