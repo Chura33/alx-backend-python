@@ -9,7 +9,7 @@ import random
 from typing import AsyncGenerator
 
 
-async def async_generator()->AsyncGenerator[int, None]:
+async def async_generator()->AsyncGenerator[float, None, None]:
     """
         This function yields a
         random number between 0 and 10 every 1 second
